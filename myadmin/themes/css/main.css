@@ -1,0 +1,162 @@
+/* CSS Document */
+*html .clearfix{height:1%;}
+*+html .clearfix{height:1%;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+
+.toolList{ margin:0px; padding:0px; list-style:none;}
+.tlf{ width:159px;background: #f2f3f2;border:1px solid #ccc; float:left; margin-left:10px; margin-bottom:5px;-moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px; padding:8px; padding-top:2px; cursor:pointer; position:relative}
+
+
+
+
+.tliN{ width:159px;background: #e5e5e5 url('../images/bg-content-box.gif') top left repeat-x;border:1px solid #ccc; float:left; margin-left:10px; margin-bottom:5px;-moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px; padding:8px; padding-top:2px; cursor:pointer; position:relative}
+
+.appImg{ width:25px; height:25px; float:left; border:2px solid #fff;-moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px;}
+.appImg img{-moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px;}
+.appName{ width:120px; float:right; height:30px; line-height:30px;}
+.appInfoF{ width:170px; height:auto; z-index:999; position:absolute; line-height:24px; margin-top:3px;  background-color:#f2f3f2 ;border:1px solid #ccc; margin-left:-9px; -moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px; margin-top:-1px; border-top:0px;display:none;-moz-border-radius-topleft: 0;
+-moz-border-radius-topleft: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0; padding-left:5px;}
+.appInfoFN{ width:170px; height:auto; z-index:999; position:absolute; line-height:24px; margin-top:3px;  background-color:#fffbcc;border:1px solid #e6db55; margin-left:-9px; -moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px; margin-top:-1px; border-top:0px;display:none;-moz-border-radius-topleft: 0;
+-moz-border-radius-topleft: 0;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0; padding-left:5px;}
+.tlfon{ background-color:#81d174;width:159px;border:1px solid #4ea540; float:left; margin-left:10px; margin-bottom:5px;-moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px; padding:8px; padding-top:2px; cursor:pointer; z-index:99999; position:relative}
+
+.tlfonT{ background-color:#d5ffce ;width:159px;border:1px solid #4ea540; float:left; margin-left:10px; margin-bottom:5px;-moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px; padding:8px; padding-top:2px; cursor:pointer; z-index:99999; position:relative}
+
+.autoMsgtextL{ width:450px; height:auto; float:left; z-index:100; position:relative;}
+.textarra{padding: 6px;
+font-size: 13px;
+background: #fff url('../images/bg-form-field.gif') top left repeat-x;
+border: 1px solid #d5d5d5;
+color: #333;-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;}
+.autoMsgtextR{ width:400px; height:auto; float:left; margin-left:50px; line-height:20px;}
+.autoMsgtextR span{ color:#333; font-size:14px; font-weight:bold;}
+.biaoqing{ width:80px; height:20px; float:left; background-image:url(../images/biaoqing.png); background-repeat:no-repeat; margin-top:20px; margin-left:30px; padding-left:20px; line-height:20px; }
+.bqcontent{ width:452px; height:212px;background-color: #FFFFFF;border: 1px solid #CCCCCC;box-shadow: 0px 1px 3px #ccc; position:absolute; top:420px;  left:320px;z-index:500; display:none; padding:5px;}
+.bqcontentC{border: 1px solid #dfe6f6;
+height: 24px;
+width: 24px;
+display: block;
+padding: 2px;
+float: left;
+cursor: pointer;}
+.notification .closeT {
+color: #990000;
+font-size: 9px;
+position: absolute;
+right: 5px;
+top: 5px;
+}
+.tpcont{ width:800px; height:auto;}
+.tpll{ width:170px; height:400px; text-align:center; float:left; margin-left:17px;}
+.tplli{ width:170px;  background-image:url(../images/icon/iphone0.png); cursor:pointer; margin-bottom:5px;}
+.tplli :hover{background-image:url(../images/icon/iphone.png)}
+.tpllCn{background-image:url(../images/icon/iphone.png)}
+.Index{ width:100%; height:426px;background: #222 url('../images/index/t.gif'); border-top:3px solid #c3de9b; border-bottom:3px solid #c2dd9a}
+.IndexC{ width:936px; height:422px; margin:3px auto; }
+.IndexCT{ width:936px; height:204px;}
+.IndexCTlogo{ width:468px; height:170px; background-image:url(../images/index/logo.png); margin-top:10px; margin-left:136px;}
+.IndexCB{ width:936px; height:216px;}
+.IndexCBT{ width:799px; height:92px; padding-left:137px;}
+.IndexCBTBig{ font-size:3.5em;text-shadow:5px 2px 6px #000; font-weight:bold; color:#d4d5d7; float:left}
+.IndexCBTsmall{ width:300px; font-size:1.5em;text-shadow:5px 2px 6px #000;  color:#d4d5d7;float:left; margin-left:80px; margin-top:10px;}
+.IndexCBTsmall span{ margin:0px auto; font-size:0.8em; text-align:center;}
+.IndexCBB{ width:936px; height:120px;}
+.IndexCBBT{ width:900px; margin-left:36px; height:65px; padding-top:10px;}
+.IndexCBBB{width:800px; margin-left:36px; height:30px; line-height:30px; text-align:right; padding-right:100px; color:#FFF; padding-top:10px;}
+.IndexCBBB a{ color:#090;}
+.textInpu{ width:290px; height:51px; font-size:18px; color:#CCC; padding-left:10px; border:0px; background:none; float:left; background-image:url(../images/index/input.png); margin-right:30px;}
+.indexDown{ width:200px; height:330px; z-index:100; position:absolute; margin-top:-200px; right:0;}
+.IndexCBBT .button:hover {
+                background: #459300 url('../images/bg-button-green.gif') top left repeat-x !important; 
+                }
+                
+.IndexCBBT .button:active {
+				 background: #459300 url('../images/bg-button-green.gif') top left repeat-x !important;
+                padding: 8px 9px 8px 9px !important;
+				text-shadow:0px 0px 0px #fff;
+                }
+.IndexCBBT .button {
+				font-family: Verdana, Arial, sans-serif;
+                display: inline-block;
+                background: #459300 url('../images/bg-button-green.gif') top left repeat-x !important;
+                border: 1px solid #459300 !important;
+                padding: 8px 9px 8px 9px !important;
+                color: #fff !important;
+                font-size: 1.5em !important;
+				font-weight:bold;
+                cursor: pointer;
+				text-shadow:2px 1px 3px #000;
+				border-radius:5px;
+				width:122px; height:50px;
+                }
+.indexCP{ width:936px; height:281px; margin:0px auto;  } 
+.mod{ width:186px; height:217px; float:left; padding:32px 63px 32px 63px;}
+.modC{ width:186px; height:217px; cursor:pointer;}
+.modCT{ width:186px; height:148px; text-align:center}
+.modCB{ width:186px; height:60px; margin-top:9px;}
+.modCB .t{ width:186px; height:25px; font-size:16px; font-weight:bold; text-align:center; color:#232122;}
+.modCB .c{ width:186px; height:35px; font-size:13px; line-height:15px;text-align:center; color:#7b7b7b;}
+.content{ width:936px; height:auto; margin:0px auto; position:relative;}
+.contentt{ width:934px; height:9px; background-image:url(../images/index/t.png)}
+.contentc{ width:904px; height:auto; background-image:url(../images/index/tc.png); padding:5px 15px 5px 15px;}
+.contentb{ width:934px; height:9px;background-image:url(../images/index/b.png)}
+.jiao{ width:22px; height:12px; background-image:url(../images/index/jiao.png); margin-bottom:-3px; z-index:1; position:relative; margin-left:130px;}
+.contentcL{ width:652px; height:auto; float:left; }
+.contentcR{ width:219px; height:auto;line-height:20px; font-size:13px; float:left; margin-left:20px; }
+.IndexFoot{ width:100%; height:84px; background-color:#727071; margin-top:10px;}
+.IndexFootC{ width:936px; height:84px; line-height:84px; margin:0px auto; text-align:center; color:#dadbd6; font-size:13px; font-weight:bold;}
+.IndexFootC a{ color:#dadbd6; text-decoration:none;}
+
+
+.AboutR{ width:850px; height:auto; margin-top:20px;}
+.AboutRT{ width:840px; height:40px; background-color:#d7dde6; cursor:pointer; line-height:40px; font-size:1.2em; padding-left:10px; color:#626b8a;}
+.AboutRB{ width:840px; height:auto; padding-top:20px; padding-bottom:20px; padding-left:10px; line-height:20px;}
+
+/*************/
+.footc{ width:270px; height:auto; background-color:#fff; position:fixed; right:10px; bottom:0px; border:1px solid #cdcdcd;}
+.footcT{ width:260px; height:32px;border-bottom:1px solid #cdcdcd; background-color:#f2f2f2; margin-top:1px; line-height:32px; padding-left:10px; font-size:14px; font-weight:bold;}
+.footcT span{ float:right; margin-right:10px; font-size:12px; font-weight:normal;}
+.footcA{ width:260px; height:40px; line-height:40px; font-size:14px; font-weight:bold; padding-left:10px; color:#337dc2; text-align:center;}
+.footcC{ width:250px; height:auto; line-height:20px; padding:10px;}
+
+.mc{ width:100%;position: fixed;
+left: 0;
+right: 0;
+bottom: 0;
+height: 100%;
+background: url(http://huaban.com/img/black_0.6.png) 0 0 repeat;
+background: rgba(0,0,0,.6);
+z-index: 100010;}
+.viewC{ width:364px; height:624px; background-image:url(http://www.wei90.com/themes/images/index/ip.png); margin:0px auto; padding-top:90px;}
+.htmlC{ width:305px; height:517px;  margin:0px 0px 0px 31px;}
+.closeF{ width:120px; height:30px;background-image:url(http://www.wei90.com/themes/images/index/clo.png); margin:30px auto; cursor:pointer; color:#FFF; text-align:center; line-height:30px;}
+
+.closeF:active{background-image:url(http://www.wei90.com/themes/images/index/clo2.png); }
+
+.listCont{ width:30%; height:auto;position: fixed;
+top:150px;
+left: 280px;
+right: 0px;
+padding:10px;
+background: url(http://www.wei90.com/themes/images/b.png) 0 0 repeat;
+background: rgba(0,0,0,.4);
+z-index: 100010; border-radius:.5em;}
+.listCont table{ border:1px solid #093; background-color:#FFF}
+.listCont th{ height:30px; border-right:1px solid #e9fde8; color:#FFF; line-height:30px; padding-left:10px;}
+.listCont td{ border:1px solid #093; border-bottom:0px; border-left:0px; height:25px; color:#556652; line-height:25px; font-size:13px; padding-left:10px; cursor:pointer}
+.listContHover{ background-color:#d5ffce }
+.listContClick{ background-color:#333;}
+.listContClick td{ color:#FFF}
+.listdiv{ width:100%; height:30px;border:1px solid #093; border-top:0px;}
+.listPage{ border:0px; text-align:left; font-size:13px;}
+.listPage a{ color:#FFF; text-decoration:none}

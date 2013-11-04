@@ -1,0 +1,17 @@
+﻿PHP + Mysql微信墙系统
+
+配置步骤：
+1.配置根目录config.php，含有数据库信息，空间域名信息等。
+2.配置moni/config.php，填写微信帐号密码。
+3.导入数据库SQL/wechat_wall.sql
+4.微信后台进入开发模式：
+URL：http://您的域名/weixin/index.php  Token:wall（默认）
+
+目录说明：
+后台：http://您的域名/myadmin 帐号密码admin
+前台：http://您的域名/wall
+抽奖：http://您的域名/cj
+
+更多说明：http://coolwb.com/5602.html 
+
+2013.11.1
