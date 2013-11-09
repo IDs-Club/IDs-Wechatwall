@@ -1,8 +1,8 @@
 <?php
-
-@header("Content-type: text/html; charset=utf-8");
+header("Content-Type:application/json; charset=utf-8");
+header('Access-Control-Allow-Origin: *');
  
-include("db.php");
+include '../config.php';
 
 $lastid=$_REQUEST['lastid'];
 $num=$lastid+1;

@@ -81,3 +81,20 @@ CREATE TABLE `weixin_wall_num` (
 -- Records of weixin_wall_num
 -- ----------------------------
 INSERT INTO `weixin_wall_num` VALUES ('1');
+
+-- ----------------------------
+-- Table structure for `weixin_admin`
+-- ----------------------------
+DROP TABLE IF EXISTS `weixin_topic`;
+CREATE TABLE `weixin_topic` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `topic` varchar(255) NOT NULL,
+  `if_set` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- ----------------------------
+-- Records of weixin_admin
+-- ----------------------------
+INSERT INTO `weixin_topic` (`id`, `topic`, `if_set`) VALUES
+(1, '测试', 1);
