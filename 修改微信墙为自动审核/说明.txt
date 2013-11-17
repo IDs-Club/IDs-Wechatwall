@@ -1,0 +1,1 @@
+把该目录下的test.php替换moni/test.php文件，实现自动审核
