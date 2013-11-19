@@ -19,6 +19,7 @@
           上墙 </a>
           <ul>
             <li><a href="shenhe.php"  id="shenhe">审核</a></li>
+            <li><a href="topic.php"  id="topic">话题</a></li>
           </ul>
         </li>
 		 <li> <a href="#" class="nav-top-item" id="up">
@@ -53,6 +54,8 @@
     <ul class="shortcut-buttons-set">
       <li><a class="shortcut-button" href="shenhe.php"><span> <img src="themes/images/icons/pencil_48.png" alt="icon" /><br />
         上墙审核管理 </span></a></li>
+      <li><a class="shortcut-button" href="topic.php"><span> <img src="themes/images/icons/comment_48.png" alt="icon" /><br />
+      话题设置 </span></a></li>
       <li><a class="shortcut-button" href="toupiao.php"><span> <img src="themes/images/icons/clock_48.png" alt="icon" /><br />
         高级设置 </span></a></li>
  </ul>

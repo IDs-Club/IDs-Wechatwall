@@ -75,7 +75,7 @@ class WeiXin
 			$url = "https://admin.wechat.com/cgi-bin/getcontactinfo?t=ajax-getcontactinfo&lang=en_US&token={$this->webToken}&ajax=1&fakeid=";
 			$re = $this->lea->submit($url, array(), $this->cookie);
 			$result = json_decode($re['body'], 1);
-			if(!$result) {
+			if(isset($result['ret']) AND isset($result['msg'])) {
 				return $this->login();
 			} else {
 				return true;
@@ -104,7 +104,7 @@ class WeiXin
 		// echo $re['body'];
 
 		$preg = '/<script type=\"json\" id=\"json-msgList\">(.+?)<\/script>/s';
-		preg_match($preg, $re['body'], $arr);	
+		preg_match($preg, $re['body'], $arr);
 		// return $arr;
 		return json_decode($arr[1], 1);
 	}
