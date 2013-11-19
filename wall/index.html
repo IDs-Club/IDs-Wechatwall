@@ -25,6 +25,7 @@
 </div>
 <script type="text/javascript">
 var base_url='http://ids-wxwall.ap01.aws.af.cm/';
+var topic=0;
 var len=3;
 var cur=0;//当前位置
 var mtime;
@@ -83,6 +84,10 @@ function messageAdd()
 }
 function messageData()
 {
+	if (topic == 0) { 
+		window.setTimeout('messageData();', 5000);
+		return;
+	};
 	var url=base_url + 'wall/api.php';
 	$.getJSON(url,{lastid:lastid},function(d) {
 		//alert(d);return;
@@ -103,12 +108,17 @@ function getinfo() {
 	var html;
     $.getJSON(base_url + 'show_config.php', function (data) {
         if (data.status == 'ok') {
+        	if (data.info.huati == null) { 
+        		alert('请在后台设置话题！');
+        		return;
+        	};
+        	topic=1;
         	$('.top .k').html('微信添加微信号：<strong>'+ data.info.wxh +'</strong> <br>发送"'+ data.info.huati +'"+您想说的话即可上墙！');
         	$('#explan p').html('<b style="font-size:50px;">上墙方法：</b><br />1.微信添加微信号：'+ data.info.wxh +'<br />2.发送'+ data.info.huati +'+您想说的话即可上墙！');
         }else {
         };
     });
-    }
+}
 window.onload=function()
 {
 	getinfo();
